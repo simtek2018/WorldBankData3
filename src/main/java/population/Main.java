@@ -28,13 +28,6 @@ public class Main {
 	
 
 	public static void main(String[] arr) {
-		if (arr.length > 0) {
-			System.out.println("args[0] = " + arr[0]);
-			new Main();
-		} else {
-			System.out.println("There is no arguments ;(");
-
-		}
-
+		new Main();
 	}
 }
