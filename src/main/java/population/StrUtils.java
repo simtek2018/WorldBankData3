@@ -33,8 +33,8 @@ public class StrUtils {
 				arrList.add(val);
 			} catch (NumberFormatException e) {
 				arrList.add(-1L);
-			//	System.out.println("Country: " + arr[0]);
-			//	System.out.println("parseDataByYear: on value = " + i);
+				System.out.println("Country: " + arr[0]);
+				System.out.println("parseDataByYear: on value = " + i);
 			}
 		}
 		return arrList;
